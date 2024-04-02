@@ -1,0 +1,597 @@
+input_data = [
+    {
+        "_id": "6602d73c33dd00108bfc1055",
+        "canteen": "Katira's",
+        "image": "chocolate_waffle",
+        "name": "Chocolate Waffle",
+        "price": 130
+    },
+    {
+        "_id": "6602d73c33dd00108bfc1056",
+        "canteen": "Katira's",
+        "image": "oreo_waffle",
+        "name": "Oreo Waffle",
+        "price": 180
+    },
+    {
+        "_id": "6602d73c33dd00108bfc1057",
+        "canteen": "Katira's",
+        "image": "white_chocolate_waffle",
+        "name": "White Chocolate Waffle",
+        "price": 160
+    },
+    {
+        "_id": "6602d73c33dd00108bfc1058",
+        "canteen": "Katira's",
+        "image": "red_velvet_waffle",
+        "name": "Red Velvet Waffle",
+        "price": 120
+    },
+    {
+        "_id": "6602d73c33dd00108bfc1059",
+        "canteen": "Katira's",
+        "image": "dark_chocolate_waffle",
+        "name": "Dark Chocolate Waffle",
+        "price": 160
+    },
+    {
+        "_id": "6602d7aa85939b32c8018449",
+        "canteen": "Nature's Joys",
+        "image": "sugercane_juice",
+        "name": "Sugarcane Juice",
+        "price": 30
+    },
+    {
+        "_id": "6602d7aa85939b32c801844a",
+        "canteen": "Nature's Joys",
+        "image": "popcorn",
+        "name": "Popcorn",
+        "price": 30
+    },
+    {
+        "_id": "6602d85030708ece67a1bcbe",
+        "canteen": "Shiv Stall",
+        "image": "cold_coffee",
+        "name": "Cold Coffee",
+        "price": 50
+    },
+    {
+        "_id": "6602d85030708ece67a1bcbf",
+        "canteen": "Shiv Stall",
+        "image": "coffee_kullad",
+        "name": "Coffee Kullad",
+        "price": 30
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc0",
+        "canteen": "Shiv Stall",
+        "image": "chai",
+        "name": "Chai",
+        "price": 10
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc1",
+        "canteen": "Shiv Stall",
+        "image": "chai_kullad",
+        "name": "Chai Kullad",
+        "price": 25
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc2",
+        "canteen": "Shiv Stall",
+        "image": "maska_bun",
+        "name": "Maska Bun",
+        "price": 30
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc3",
+        "canteen": "Shiv Stall",
+        "image": "butter_maggie",
+        "name": "Butter Maggie",
+        "price": 70
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc4",
+        "canteen": "Shiv Stall",
+        "image": "poha",
+        "name": "Poha",
+        "price": 20
+    },
+    {
+        "_id": "6602d85030708ece67a1bcc5",
+        "canteen": "Shiv Stall",
+        "image": "bread_butter",
+        "name": "Bread Butter",
+        "price": 30
+    },
+    {
+        "_id": "6602d8cbf53a7598fba81bb3",
+        "canteen": "Chaat King",
+        "image": "pani_puri",
+        "name": "Pani Puri",
+        "price": 20
+    },
+    {
+        "_id": "6602d8cbf53a7598fba81bb4",
+        "canteen": "Chaat King",
+        "image": "chutney_puri",
+        "name": "Chutney Puri",
+        "price": 40
+    },
+    {
+        "_id": "6602d8cbf53a7598fba81bb5",
+        "canteen": "Chaat King",
+        "image": "dahi_puri",
+        "name": "Dahi Puri",
+        "price": 40
+    },
+    {
+        "_id": "6602d8cbf53a7598fba81bb6",
+        "canteen": "Chaat King",
+        "image": "bhel",
+        "name": "Bhel",
+        "price": 50
+    },
+    {
+        "_id": "6602d8cbf53a7598fba81bb7",
+        "canteen": "Chaat King",
+        "image": "basket_chaat",
+        "name": "Basket Chaat",
+        "price": 40
+    },
+    {
+        "_id": "6602d93bee0bd98b99cb5fc6",
+        "canteen": "Lassibaa",
+        "image": "chaas",
+        "name": "Chaas",
+        "price": 20
+    },
+    {
+        "_id": "6602d93bee0bd98b99cb5fc7",
+        "canteen": "Lassibaa",
+        "image": "masala_chaas",
+        "name": "Masala Chaas",
+        "price": 25
+    },
+    {
+        "_id": "6602d93bee0bd98b99cb5fc8",
+        "canteen": "Lassibaa",
+        "image": "mango_lassi",
+        "name": "Mango Lassi",
+        "price": 40
+    },
+    {
+        "_id": "6602d93bee0bd98b99cb5fc9",
+        "canteen": "Lassibaa",
+        "image": "rajwadi_lassi",
+        "name": "Rajwadi Lassi",
+        "price": 55
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbda",
+        "canteen": "Helly & Chillies",
+        "image": "peri_peri_burger",
+        "name": "Peri Peri Burger",
+        "price": 79
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbdb",
+        "canteen": "Helly & Chillies",
+        "image": "veg_burger",
+        "name": "Veg. Burger",
+        "price": 69
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbdc",
+        "canteen": "Helly & Chillies",
+        "image": "veg_puff",
+        "name": "Veg. Puff",
+        "price": 35
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbdd",
+        "canteen": "Helly & Chillies",
+        "image": "red_gravy_pasta",
+        "name": "Red Gravy Pasta",
+        "price": 99
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbde",
+        "canteen": "Helly & Chillies",
+        "image": "white_gravy_pasta",
+        "name": "White Gravy Pasta",
+        "price": 99
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbdf",
+        "canteen": "Helly & Chillies",
+        "image": "bournvita",
+        "name": "Bournvita",
+        "price": 30
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbe0",
+        "canteen": "Helly & Chillies",
+        "image": "masala_dudh",
+        "name": "Masala Dudh",
+        "price": 30
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbe1",
+        "canteen": "Helly & Chillies",
+        "image": "mint_mojito",
+        "name": "Mint Mojito",
+        "price": 49
+    },
+    {
+        "_id": "6602dfd6ec7972d8b4a6cbe2",
+        "canteen": "Helly & Chillies",
+        "image": "blue_ocean",
+        "name": "Blue Ocean",
+        "price": 49
+    },
+    {
+        "_id": "6602e130341372b16b3c6831",
+        "canteen": "Madhav's Bakery",
+        "image": "pineapple_cake",
+        "name": "Pineapple Cake",
+        "price": 250
+    },
+    {
+        "_id": "6602e130341372b16b3c6832",
+        "canteen": "Madhav's Bakery",
+        "image": "orange_cake",
+        "name": "Orange Cake",
+        "price": 250
+    },
+    {
+        "_id": "6602e130341372b16b3c6833",
+        "canteen": "Madhav's Bakery",
+        "image": "strawberry_cake",
+        "name": "Strawberry Cake",
+        "price": 250
+    },
+    {
+        "_id": "6602e130341372b16b3c6834",
+        "canteen": "Madhav's Bakery",
+        "image": "vanilla_cake",
+        "name": "Vanilla Cake",
+        "price": 300
+    },
+    {
+        "_id": "6602e130341372b16b3c6835",
+        "canteen": "Madhav's Bakery",
+        "image": "back_forrest_cake",
+        "name": "Black Forrest Cake",
+        "price": 300
+    },
+    {
+        "_id": "6602e130341372b16b3c6836",
+        "canteen": "Madhav's Bakery",
+        "image": "chocolate_cake",
+        "name": "Chocolate Cake",
+        "price": 350
+    },
+    {
+        "_id": "6602e3a53856289745ae0fa6",
+        "canteen": "Pate Pooja",
+        "image": "veg_pizza",
+        "name": "Veg. Pizza",
+        "price": 50
+    },
+    {
+        "_id": "6602e3a53856289745ae0fa7",
+        "canteen": "Pate Pooja",
+        "image": "cheese_pizza",
+        "name": "Cheese Pizza",
+        "price": 40
+    },
+    {
+        "_id": "6602e3a53856289745ae0fa8",
+        "canteen": "Pate Pooja",
+        "image": "tandoori_paneer_pizza",
+        "name": "Tandoori Paneer Pizza",
+        "price": 60
+    },
+    {
+        "_id": "6602e3a53856289745ae0fa9",
+        "canteen": "Pate Pooja",
+        "image": "cheese_garlic_bread",
+        "name": "Cheese Garlic Bread",
+        "price": 49
+    },
+    {
+        "_id": "6602e3a53856289745ae0faa",
+        "canteen": "Pate Pooja",
+        "image": "burrito",
+        "name": "Burrito",
+        "price": 49
+    },
+    {
+        "_id": "6602e3a53856289745ae0fab",
+        "canteen": "Pate Pooja",
+        "image": "quesadilla",
+        "name": "Quesadilla",
+        "price": 49
+    },
+    {
+        "_id": "6602e3a53856289745ae0fac",
+        "canteen": "Pate Pooja",
+        "image": "loaded_nachos",
+        "name": "Loaded Nachos",
+        "price": 49
+    },
+    {
+        "_id": "6602e3a53856289745ae0fad",
+        "canteen": "Pate Pooja",
+        "image": "tacos",
+        "name": "Tacos",
+        "price": 49
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db90",
+        "canteen": "Shambhu's",
+        "image": "mocha_cold_coffee",
+        "name": "Mocha Cold Coffee",
+        "price": 119
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db91",
+        "canteen": "Shambhu's",
+        "image": "kitkat_thick_shake",
+        "name": "Kitkat Thick Shake",
+        "price": 149
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db92",
+        "canteen": "Shambhu's",
+        "image": "strawberry_milk_shake",
+        "name": "Strawberry Milk Shake",
+        "price": 70
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db93",
+        "canteen": "Shambhu's",
+        "image": "mango_milk_shake",
+        "name": "Mango Milk Shake",
+        "price": 70
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db94",
+        "canteen": "Shambhu's",
+        "image": "rose_milk_shake",
+        "name": "Rose Milk Shake",
+        "price": 70
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db95",
+        "canteen": "Shambhu's",
+        "image": "masala_chai",
+        "name": "Masala Chai",
+        "price": 30
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db96",
+        "canteen": "Shambhu's",
+        "image": "blueberry_slush",
+        "name": "Blueberry Slush",
+        "price": 99
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db97",
+        "canteen": "Shambhu's",
+        "image": "orange_tang_slush",
+        "name": "Orange Tang Slush",
+        "price": 99
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db98",
+        "canteen": "Shambhu's",
+        "image": "chilli_cheese_toast",
+        "name": "Chilli Cheese Toast",
+        "price": 140
+    },
+    {
+        "_id": "6602e6a6b4dc02889d86db99",
+        "canteen": "Shambhu's",
+        "image": "aloo_matter_sandwich",
+        "name": "Aloo Matter Sandwich",
+        "price": 70
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b63",
+        "canteen": "Campus Café",
+        "image": "samosa",
+        "name": "Samosa",
+        "price": 30
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b64",
+        "canteen": "Campus Café",
+        "image": "aloo_paratha",
+        "name": "Aloo Paratha",
+        "price": 50
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b65",
+        "canteen": "Campus Café",
+        "image": "kachori",
+        "name": "Kachori",
+        "price": 20
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b66",
+        "canteen": "Campus Café",
+        "image": "idli_sambar",
+        "name": "Idli Sambar",
+        "price": 30
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b67",
+        "canteen": "Campus Café",
+        "image": "medu_vada",
+        "name": "Medu Vada",
+        "price": 40
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b68",
+        "canteen": "Campus Café",
+        "image": "thepla",
+        "name": "Thepla",
+        "price": 30
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b69",
+        "canteen": "Campus Café",
+        "image": "masala_uttapam",
+        "name": "Masala Uttapam",
+        "price": 50
+    },
+    {
+        "_id": "6602e7d0396fb137f3031b6a",
+        "canteen": "Campus Café",
+        "image": "masala_dosa",
+        "name": "Masala Dosa",
+        "price": 70
+    },
+    {
+        "_id": "6602e8cc34292e801a8698ad",
+        "canteen": "Bhadresh Tea Stall",
+        "image": "tea",
+        "name": "Tea",
+        "price": 20
+    },
+    {
+        "_id": "6602e8cc34292e801a8698ae",
+        "canteen": "Bhadresh Tea Stall",
+        "image": "coffee",
+        "name": "Coffee",
+        "price": 30
+    },
+    {
+        "_id": "6602e8cc34292e801a8698af",
+        "canteen": "Bhadresh Tea Stall",
+        "image": "bournvita",
+        "name": "Bournvita",
+        "price": 40
+    },
+    {
+        "_id": "6602e9805a0fb3fa05aa6878",
+        "canteen": "Lucky Live Dhokla",
+        "image": "plain_dhokla",
+        "name": "Plain Dhokla",
+        "price": 40
+    },
+    {
+        "_id": "6602e9805a0fb3fa05aa6879",
+        "canteen": "Lucky Live Dhokla",
+        "image": "fry_dhokla",
+        "name": "Fry Dhokla",
+        "price": 50
+    },
+    {
+        "_id": "6602e9805a0fb3fa05aa687a",
+        "canteen": "Lucky Live Dhokla",
+        "image": "plate_handvo",
+        "name": "Plate Handvo",
+        "price": 60
+    },
+    {
+        "_id": "6602e9805a0fb3fa05aa687b",
+        "canteen": "Lucky Live Dhokla",
+        "image": "chole_kulcha",
+        "name": "Chole Kulcha",
+        "price": 60
+    },
+    {
+        "_id": "6602ea423c84e2f08b7677d9",
+        "canteen": "Bala's Food",
+        "image": "vadapav",
+        "name": "Vadapav",
+        "price": 30
+    },
+    {
+        "_id": "6602ea423c84e2f08b7677da",
+        "canteen": "Bala's Food",
+        "image": "dabeli",
+        "name": "Dabeli",
+        "price": 25
+    },
+    {
+        "_id": "6602ea423c84e2f08b7677db",
+        "canteen": "Bala's Food",
+        "image": "puff",
+        "name": "Puff",
+        "price": 35
+    },
+    {
+        "_id": "6602ea423c84e2f08b7677dc",
+        "canteen": "Bala's Food",
+        "image": "bhaji_pav",
+        "name": "Bhaji Pav",
+        "price": 70
+    },
+    {
+        "_id": "6602ead2d395b733a590cdee",
+        "canteen": "Syskara",
+        "image": "veg_steamed_momos",
+        "name": "Veg. Steamed Momos",
+        "price": 60
+    },
+    {
+        "_id": "6602ead2d395b733a590cdef",
+        "canteen": "Syskara",
+        "image": "paneer_steamed_momos",
+        "name": "Paneer Steamed Momos",
+        "price": 80
+    },
+    {
+        "_id": "6602ead2d395b733a590cdf0",
+        "canteen": "Syskara",
+        "image": "fried_momos",
+        "name": "Fired Momos",
+        "price": 70
+    },
+    {
+        "_id": "6602ebe31ad9593dd3124cb6",
+        "canteen": "Bombay Kulfi",
+        "image": "pan_roll_cut",
+        "name": "Pan Roll Cut",
+        "price": 40
+    },
+    {
+        "_id": "6602ebe31ad9593dd3124cb7",
+        "canteen": "Bombay Kulfi",
+        "image": "mava_malai_roll_cut",
+        "name": "Mava Malai Roll Cut",
+        "price": 40
+    },
+    {
+        "_id": "6602ebe31ad9593dd3124cb8",
+        "canteen": "Bombay Kulfi",
+        "image": "chocolate_roll_cut",
+        "name": "Chocolate Roll Cut",
+        "price": 50
+    },
+    {
+        "_id": "6602ebe31ad9593dd3124cb9",
+        "canteen": "Bombay Kulfi",
+        "image": "badam_pista_kesar_tiliwali",
+        "name": "Badam Pista Kesar Tiliwali",
+        "price": 25
+    }
+]
+
+from flask import Flask, request, jsonify
+import re
+from flask_pymongo import PyMongo
+from werkzeug.security import generate_password_hash, check_password_hash
+from flask_cors import CORS
+import pymongo
+
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["foodcourt"]
+collection = db["food_collection2"]
+
+for i in input_data:
+    db.food_collection2.insert_one(i)
