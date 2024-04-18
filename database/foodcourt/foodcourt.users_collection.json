@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "660115aed459dd050fe2375f"
+  },
+  "name": "manan",
+  "email": "dhinoramanan@gmail.com",
+  "password": "scrypt:32768:8:1$t4ENpdJCjbnFPk0v$cd28ff63291da57cbce07bf998b4e6dbe8c7380ba1a60e19f722be81965b0c9c8d9ffb57454a7af4381602c646d5f10b3a67df394477882c9883d9d824641816"
+},
+{
+  "_id": {
+    "$oid": "66014151b19a0c2caa408b07"
+  },
+  "name": "manan dhinora",
+  "email": "man@gmail.com",
+  "password": "scrypt:32768:8:1$09Rp2VXqdIfoE2BF$cde6d1000b6c59080a6c7dcb36c8a595fb6cef8ef717a9bf3b117b2d3a554ee31d827d5529bec70f853d94ddcf1a488335321af9d32e168c5e7c5d54d5a29d40"
+},
+{
+  "_id": {
+    "$oid": "660316b79672c3517acc6c4a"
+  },
+  "name": "asdf",
+  "email": "ha@gmail.com",
+  "password": "scrypt:32768:8:1$oAh7RuwfJjhAINkU$73274c6d21a1c58c4fdb2b10adfb8232aa24eeaf00584bd96c4a3f9264c3841b4c4bdfaf4b9dbd87392d6a325b12885b3116dda6670e3a64f0c359b9952a9ef6",
+  "user-type": "Faculty"
+}]

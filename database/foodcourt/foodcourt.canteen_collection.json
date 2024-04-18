@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4675"
+  },
+  "name": "Katira's"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4676"
+  },
+  "name": "Nature's Joys"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4677"
+  },
+  "name": "Shiv Stall"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4678"
+  },
+  "name": "Chaat King"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4679"
+  },
+  "name": "Lassibaa"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467a"
+  },
+  "name": "Helly & Chillies"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467b"
+  },
+  "name": "Madhav's Bakery"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467c"
+  },
+  "name": "Pate Pooja"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467d"
+  },
+  "name": "Shambhu's"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467e"
+  },
+  "name": "Campus Café"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f467f"
+  },
+  "name": "Bhadresh Tea Stall"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4680"
+  },
+  "name": "Lucky Live Dhokla"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4681"
+  },
+  "name": "Bala's Food"
+},
+{
+  "_id": {
+    "$oid": "6602d36feee2c748d85f4682"
+  },
+  "name": "Syskara"
+},
+{
+  "_id": {
+    "$oid": "6602eb18599c5ed33d5380a0"
+  },
+  "name": "Bombay Kulfi"
+}]
